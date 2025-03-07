@@ -12,7 +12,7 @@ class Program
         */
 
         string wantToPlayAgain = "no";
-        
+
         do
         {
             Random randomGenerator = new Random();
@@ -23,8 +23,8 @@ class Program
             do 
             {
                 Console.Write("What is your guess?:");
-
                 guess = int.Parse(Console.ReadLine());
+                
                 if ( guess > magicNumber )
                 {
                     System.Console.WriteLine("Lower");
