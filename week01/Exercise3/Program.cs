@@ -24,7 +24,7 @@ class Program
             {
                 Console.Write("What is your guess?:");
                 guess = int.Parse(Console.ReadLine());
-                
+
                 if ( guess > magicNumber )
                 {
                     System.Console.WriteLine("Lower");
@@ -40,7 +40,7 @@ class Program
 
                 tryCounter++;
 
-            } while( guess != magicNumber );
+            } while ( guess != magicNumber );
 
             System.Console.WriteLine($"Number fo tries:{tryCounter}");
 
