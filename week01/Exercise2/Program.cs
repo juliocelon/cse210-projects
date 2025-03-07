@@ -49,7 +49,7 @@ class Program
 
         if ( letter == "A")
         {
-            if( sign == "+" )
+            if ( sign == "+" )
             {
                 sign = "";
             }
