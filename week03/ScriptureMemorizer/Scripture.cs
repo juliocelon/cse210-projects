@@ -84,13 +84,13 @@ public class Scripture
 
     public int GetAmountOfNoHiddenWords()
     {
-        int counter = 0;
+        int count = 0;
         foreach (Word word in _words)
         {
             if (word.IsHidden() == false)
-                counter++;
+                count++;
         }
-        return counter;
+        return count;
     }
 
 }
