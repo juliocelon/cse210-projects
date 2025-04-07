@@ -1,5 +1,3 @@
-using System.Drawing;
-
 public abstract class Shape
 {
     protected string _color;
